@@ -8,13 +8,13 @@ Update the `schedule.csv` file to match your weekly routine.
 
 ## Set environment variables
 
-Set the following environment variable in this repository (settings)[/settings/variables/actions] :
+Set the following environment variable in this repository settings (here : `https://github.com/<user>/<repo>/settings/variables/actions`) :
 
 - `MATTERMOST_SERVER`: the name of the server, ie. "framateam.org"
 
 ## Set environment secrets
 
-Set the following environment variable in this repository (settings)[/settings/secrets/actions] :
+Set the following environment secrets in this repository settings (here : `https://github.com/<user>/<repo>/settings/secrets/actions`) :
 
 - `MATTERMOST_EMAIL`: your email address you're using to connect to the server
 - `MATTERMOST_PASSWORD`: the associated password
