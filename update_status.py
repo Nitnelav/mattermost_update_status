@@ -59,7 +59,7 @@ current_day = now.strftime('%Y-%m-%d')
 
 schedule_days = [day for day in schedule if day['day'] == current_week_day]
 
-if len(schedule_days) < 0:
+if len(schedule_days) <= 0:
     print("No schedule for today. Do nothing.")
     exit()
 
